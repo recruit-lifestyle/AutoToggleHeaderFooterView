@@ -1,0 +1,16 @@
+PODS:
+  - AutoToggleHeaderFooterView (1.0.0)
+
+DEPENDENCIES:
+  - AutoToggleHeaderFooterView (from `../`)
+
+EXTERNAL SOURCES:
+  AutoToggleHeaderFooterView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AutoToggleHeaderFooterView: c7c3c558dedc9743cdecb41a57e81e6d44317354
+
+PODFILE CHECKSUM: 3096cd812cb2f4ae18f4a789be3c7143228e7dce
+
+COCOAPODS: 1.2.0
