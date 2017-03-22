@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AutoToggleHeaderFooterView_Example' do
+  pod 'AutoToggleHeaderFooterView', :path => '../'
+
+  target 'AutoToggleHeaderFooterView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

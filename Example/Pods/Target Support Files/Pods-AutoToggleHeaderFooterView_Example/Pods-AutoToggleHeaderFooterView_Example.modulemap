@@ -1,0 +1,6 @@
+framework module Pods_AutoToggleHeaderFooterView_Example {
+  umbrella header "Pods-AutoToggleHeaderFooterView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

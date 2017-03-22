@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461E2B0C20C38D330B8816AF013EB926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		610763FFB6CA98D091152284E17933F3 /* Pods-AutoToggleHeaderFooterView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0C5930D8059BDA09403FDA18F83BCA /* Pods-AutoToggleHeaderFooterView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B0666330DD7E9B88E8914D4023A930 /* AutoToggleHeaderFooterView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8A142F8DBEF941146288100241ACD2 /* AutoToggleHeaderFooterView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BFC52CB8F820B6568980E7996B604E /* Pods-AutoToggleHeaderFooterView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C35B898356E443AEE5D1DFD0A1F14A /* Pods-AutoToggleHeaderFooterView_Example-dummy.m */; };
+		8435018C9C65D952AD1237AAE7D2FDDC /* Pods-AutoToggleHeaderFooterView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2A4B51C42B121D8EE9C6F78C1348D7 /* Pods-AutoToggleHeaderFooterView_Tests-dummy.m */; };
+		8A2B8DC48C7954B12C598D66E1AF5D96 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33DFDC902BD731E955DFBCD526B7F7E /* Constraint.swift */; };
+		A052D9827E2F464D3E46A1335BB1E655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C481FA9834796651246C25A54ED14FA1 /* ScrollAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D712CD4B3C345A5F0F75336A21E46 /* ScrollAssistantView.swift */; };
+		CFD853F12A1258095E4BDCFDF4B1BF76 /* AutoToggleHeaderFooterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F28CF7648E0A646112311EA9BC5BB /* AutoToggleHeaderFooterView-dummy.m */; };
+		D60980531EE19940459472FA65928C79 /* Pods-AutoToggleHeaderFooterView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 612A53908B3F748409AE3118CF710BA3 /* Pods-AutoToggleHeaderFooterView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA420DC3F464DC0A261B7BE3335900B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6486D0ECC18BB5E3F86EC2F44A65C61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02274BFD7227473C3F2BE8094078A6C5;
+			remoteInfo = AutoToggleHeaderFooterView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079A8D1A2690581EF3A7EF255187226F /* Pods-AutoToggleHeaderFooterView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoToggleHeaderFooterView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0BBEDC7783D778B5618EC0CA0206113F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA441466B64AED9775CD7D9748B8027 /* Pods-AutoToggleHeaderFooterView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoToggleHeaderFooterView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1B634D5418D48D57FF625D36B06F9ACA /* Pods-AutoToggleHeaderFooterView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoToggleHeaderFooterView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B24AB879D6A2AD1B61EC8FF519D5393 /* Pods-AutoToggleHeaderFooterView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoToggleHeaderFooterView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		334965B58DC849AE29464DF0C600941C /* Pods_AutoToggleHeaderFooterView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoToggleHeaderFooterView_Tests.framework; path = "Pods-AutoToggleHeaderFooterView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37572CC8622BE5208DEFC9D8BC646032 /* Pods-AutoToggleHeaderFooterView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoToggleHeaderFooterView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		38F98F3779AD02B3B73AA43EE529A77D /* Pods-AutoToggleHeaderFooterView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoToggleHeaderFooterView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3AB82DB8D6795F7AAF9E3D0E3D3FFF99 /* Pods-AutoToggleHeaderFooterView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoToggleHeaderFooterView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5B8A142F8DBEF941146288100241ACD2 /* AutoToggleHeaderFooterView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoToggleHeaderFooterView-umbrella.h"; sourceTree = "<group>"; };
+		60A7E695B8C986302914154538AA522E /* AutoToggleHeaderFooterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoToggleHeaderFooterView.xcconfig; sourceTree = "<group>"; };
+		612A53908B3F748409AE3118CF710BA3 /* Pods-AutoToggleHeaderFooterView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoToggleHeaderFooterView_Example-umbrella.h"; sourceTree = "<group>"; };
+		8902D07FB1EF4D9BD0CE5CF29A0C84D2 /* Pods-AutoToggleHeaderFooterView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoToggleHeaderFooterView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9152A804DAD44231D32CA9712115A887 /* AutoToggleHeaderFooterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AutoToggleHeaderFooterView.framework; path = AutoToggleHeaderFooterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958FC5445EB610A8205489C5E3DFD92A /* Pods-AutoToggleHeaderFooterView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AutoToggleHeaderFooterView_Example.modulemap"; sourceTree = "<group>"; };
+		9613A241C86ED8B7CF9091AB38F296B3 /* Pods-AutoToggleHeaderFooterView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoToggleHeaderFooterView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		97706F9417BBEAC54BA448C30CCDB0D9 /* AutoToggleHeaderFooterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoToggleHeaderFooterView-prefix.pch"; sourceTree = "<group>"; };
+		A0A9CC2DC12FF9B06E00B66185792098 /* AutoToggleHeaderFooterView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AutoToggleHeaderFooterView.modulemap; sourceTree = "<group>"; };
+		B5C35B898356E443AEE5D1DFD0A1F14A /* Pods-AutoToggleHeaderFooterView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoToggleHeaderFooterView_Example-dummy.m"; sourceTree = "<group>"; };
+		BA0BF9DBAD81C9133A901C1E767E42AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2A4B51C42B121D8EE9C6F78C1348D7 /* Pods-AutoToggleHeaderFooterView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoToggleHeaderFooterView_Tests-dummy.m"; sourceTree = "<group>"; };
+		BAB02CA6E6FFAA4C75BCF37AD50C4EC3 /* Pods-AutoToggleHeaderFooterView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoToggleHeaderFooterView_Example-resources.sh"; sourceTree = "<group>"; };
+		BBC3BD1A5FFA56C7907AF54F2494EBC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC03BC44B8574B07CBF0B72414EEB4A3 /* Pods-AutoToggleHeaderFooterView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoToggleHeaderFooterView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4B86AF250AABEFAFBF55F5B55233221 /* Pods_AutoToggleHeaderFooterView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoToggleHeaderFooterView_Example.framework; path = "Pods-AutoToggleHeaderFooterView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0C5930D8059BDA09403FDA18F83BCA /* Pods-AutoToggleHeaderFooterView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoToggleHeaderFooterView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD2788D6DCC4861590D09EBD11A478D0 /* Pods-AutoToggleHeaderFooterView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AutoToggleHeaderFooterView_Tests.modulemap"; sourceTree = "<group>"; };
+		D92D712CD4B3C345A5F0F75336A21E46 /* ScrollAssistantView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollAssistantView.swift; sourceTree = "<group>"; };
+		DF3F28CF7648E0A646112311EA9BC5BB /* AutoToggleHeaderFooterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoToggleHeaderFooterView-dummy.m"; sourceTree = "<group>"; };
+		E33DFDC902BD731E955DFBCD526B7F7E /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		F02635237B277ACBB0EE05BE9B044AE4 /* Pods-AutoToggleHeaderFooterView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoToggleHeaderFooterView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9856658ABBAEBF660C5C94BC1EC98410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461E2B0C20C38D330B8816AF013EB926 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5170CE0C35242E97D47A15A24EC9DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA420DC3F464DC0A261B7BE3335900B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2B0ECE97D04E44C8444C47B3B7F046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A052D9827E2F464D3E46A1335BB1E655 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4119C8A77F7CB3003DE394673E82E66F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E744916C87FA9C209785790488D57E2F /* Pods-AutoToggleHeaderFooterView_Example */,
+				AD4151F5FEB782090E8C8E0C872F75B7 /* Pods-AutoToggleHeaderFooterView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7453C6A86D35D74E51FD3A67B849EFAF /* AutoToggleHeaderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				C9A86D05C8C4B6301C20146F74562ADA /* Classes */,
+			);
+			name = AutoToggleHeaderFooterView;
+			path = AutoToggleHeaderFooterView;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				877AF14F9A81C3EA05D9FB8175E34BF0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E20E039EC4EE75DE4361728F7A917BCF /* Products */,
+				4119C8A77F7CB3003DE394673E82E66F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		877AF14F9A81C3EA05D9FB8175E34BF0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D42E3E24D4878AFFB7F79FF98CA7B2BC /* AutoToggleHeaderFooterView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AD4151F5FEB782090E8C8E0C872F75B7 /* Pods-AutoToggleHeaderFooterView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0BBEDC7783D778B5618EC0CA0206113F /* Info.plist */,
+				CD2788D6DCC4861590D09EBD11A478D0 /* Pods-AutoToggleHeaderFooterView_Tests.modulemap */,
+				F02635237B277ACBB0EE05BE9B044AE4 /* Pods-AutoToggleHeaderFooterView_Tests-acknowledgements.markdown */,
+				2B24AB879D6A2AD1B61EC8FF519D5393 /* Pods-AutoToggleHeaderFooterView_Tests-acknowledgements.plist */,
+				BA2A4B51C42B121D8EE9C6F78C1348D7 /* Pods-AutoToggleHeaderFooterView_Tests-dummy.m */,
+				3AB82DB8D6795F7AAF9E3D0E3D3FFF99 /* Pods-AutoToggleHeaderFooterView_Tests-frameworks.sh */,
+				38F98F3779AD02B3B73AA43EE529A77D /* Pods-AutoToggleHeaderFooterView_Tests-resources.sh */,
+				CA0C5930D8059BDA09403FDA18F83BCA /* Pods-AutoToggleHeaderFooterView_Tests-umbrella.h */,
+				8902D07FB1EF4D9BD0CE5CF29A0C84D2 /* Pods-AutoToggleHeaderFooterView_Tests.debug.xcconfig */,
+				37572CC8622BE5208DEFC9D8BC646032 /* Pods-AutoToggleHeaderFooterView_Tests.release.xcconfig */,
+			);
+			name = "Pods-AutoToggleHeaderFooterView_Tests";
+			path = "Target Support Files/Pods-AutoToggleHeaderFooterView_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8D49BEB3B5BAC8617AADE074EED9811 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A9CC2DC12FF9B06E00B66185792098 /* AutoToggleHeaderFooterView.modulemap */,
+				60A7E695B8C986302914154538AA522E /* AutoToggleHeaderFooterView.xcconfig */,
+				DF3F28CF7648E0A646112311EA9BC5BB /* AutoToggleHeaderFooterView-dummy.m */,
+				97706F9417BBEAC54BA448C30CCDB0D9 /* AutoToggleHeaderFooterView-prefix.pch */,
+				5B8A142F8DBEF941146288100241ACD2 /* AutoToggleHeaderFooterView-umbrella.h */,
+				BA0BF9DBAD81C9133A901C1E767E42AB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AutoToggleHeaderFooterView";
+			sourceTree = "<group>";
+		};
+		C9A86D05C8C4B6301C20146F74562ADA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E33DFDC902BD731E955DFBCD526B7F7E /* Constraint.swift */,
+				D92D712CD4B3C345A5F0F75336A21E46 /* ScrollAssistantView.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D42E3E24D4878AFFB7F79FF98CA7B2BC /* AutoToggleHeaderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				7453C6A86D35D74E51FD3A67B849EFAF /* AutoToggleHeaderFooterView */,
+				C8D49BEB3B5BAC8617AADE074EED9811 /* Support Files */,
+			);
+			name = AutoToggleHeaderFooterView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E20E039EC4EE75DE4361728F7A917BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9152A804DAD44231D32CA9712115A887 /* AutoToggleHeaderFooterView.framework */,
+				C4B86AF250AABEFAFBF55F5B55233221 /* Pods_AutoToggleHeaderFooterView_Example.framework */,
+				334965B58DC849AE29464DF0C600941C /* Pods_AutoToggleHeaderFooterView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E744916C87FA9C209785790488D57E2F /* Pods-AutoToggleHeaderFooterView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BBC3BD1A5FFA56C7907AF54F2494EBC2 /* Info.plist */,
+				958FC5445EB610A8205489C5E3DFD92A /* Pods-AutoToggleHeaderFooterView_Example.modulemap */,
+				1B634D5418D48D57FF625D36B06F9ACA /* Pods-AutoToggleHeaderFooterView_Example-acknowledgements.markdown */,
+				BC03BC44B8574B07CBF0B72414EEB4A3 /* Pods-AutoToggleHeaderFooterView_Example-acknowledgements.plist */,
+				B5C35B898356E443AEE5D1DFD0A1F14A /* Pods-AutoToggleHeaderFooterView_Example-dummy.m */,
+				1AA441466B64AED9775CD7D9748B8027 /* Pods-AutoToggleHeaderFooterView_Example-frameworks.sh */,
+				BAB02CA6E6FFAA4C75BCF37AD50C4EC3 /* Pods-AutoToggleHeaderFooterView_Example-resources.sh */,
+				612A53908B3F748409AE3118CF710BA3 /* Pods-AutoToggleHeaderFooterView_Example-umbrella.h */,
+				9613A241C86ED8B7CF9091AB38F296B3 /* Pods-AutoToggleHeaderFooterView_Example.debug.xcconfig */,
+				079A8D1A2690581EF3A7EF255187226F /* Pods-AutoToggleHeaderFooterView_Example.release.xcconfig */,
+			);
+			name = "Pods-AutoToggleHeaderFooterView_Example";
+			path = "Target Support Files/Pods-AutoToggleHeaderFooterView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27C062056E7056709D1485DCE5A630F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610763FFB6CA98D091152284E17933F3 /* Pods-AutoToggleHeaderFooterView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90902904A091E2D967CF58EB687B0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0666330DD7E9B88E8914D4023A930 /* AutoToggleHeaderFooterView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBD029AAF162CE845DFEA02019C19C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60980531EE19940459472FA65928C79 /* Pods-AutoToggleHeaderFooterView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02274BFD7227473C3F2BE8094078A6C5 /* AutoToggleHeaderFooterView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A95390959041229882B59A4554BB8E /* Build configuration list for PBXNativeTarget "AutoToggleHeaderFooterView" */;
+			buildPhases = (
+				FC8B1C65B47BC80A37EC1398A7642669 /* Sources */,
+				9856658ABBAEBF660C5C94BC1EC98410 /* Frameworks */,
+				CB90902904A091E2D967CF58EB687B0E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoToggleHeaderFooterView;
+			productName = AutoToggleHeaderFooterView;
+			productReference = 9152A804DAD44231D32CA9712115A887 /* AutoToggleHeaderFooterView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AF10C36A06B2B60EE483A906474903B /* Pods-AutoToggleHeaderFooterView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFE349B0AC1F4EFF06D7152634EA758 /* Build configuration list for PBXNativeTarget "Pods-AutoToggleHeaderFooterView_Tests" */;
+			buildPhases = (
+				2817A7EDE373A2592EE8B43CB778F03C /* Sources */,
+				ED2B0ECE97D04E44C8444C47B3B7F046 /* Frameworks */,
+				27C062056E7056709D1485DCE5A630F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AutoToggleHeaderFooterView_Tests";
+			productName = "Pods-AutoToggleHeaderFooterView_Tests";
+			productReference = 334965B58DC849AE29464DF0C600941C /* Pods_AutoToggleHeaderFooterView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1B0088E729A9B1147B0234D5056CB945 /* Pods-AutoToggleHeaderFooterView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31F25B2BC88E2F3201A72BA6B706994 /* Build configuration list for PBXNativeTarget "Pods-AutoToggleHeaderFooterView_Example" */;
+			buildPhases = (
+				314DA186B71EF8CD0E1A11CF4565276B /* Sources */,
+				B5170CE0C35242E97D47A15A24EC9DBD /* Frameworks */,
+				FFCBD029AAF162CE845DFEA02019C19C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899A041A747BC7CCA611964AA57159CC /* PBXTargetDependency */,
+			);
+			name = "Pods-AutoToggleHeaderFooterView_Example";
+			productName = "Pods-AutoToggleHeaderFooterView_Example";
+			productReference = C4B86AF250AABEFAFBF55F5B55233221 /* Pods_AutoToggleHeaderFooterView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E20E039EC4EE75DE4361728F7A917BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02274BFD7227473C3F2BE8094078A6C5 /* AutoToggleHeaderFooterView */,
+				1B0088E729A9B1147B0234D5056CB945 /* Pods-AutoToggleHeaderFooterView_Example */,
+				1AF10C36A06B2B60EE483A906474903B /* Pods-AutoToggleHeaderFooterView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2817A7EDE373A2592EE8B43CB778F03C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435018C9C65D952AD1237AAE7D2FDDC /* Pods-AutoToggleHeaderFooterView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314DA186B71EF8CD0E1A11CF4565276B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BFC52CB8F820B6568980E7996B604E /* Pods-AutoToggleHeaderFooterView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B1C65B47BC80A37EC1398A7642669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD853F12A1258095E4BDCFDF4B1BF76 /* AutoToggleHeaderFooterView-dummy.m in Sources */,
+				8A2B8DC48C7954B12C598D66E1AF5D96 /* Constraint.swift in Sources */,
+				C481FA9834796651246C25A54ED14FA1 /* ScrollAssistantView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		899A041A747BC7CCA611964AA57159CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoToggleHeaderFooterView;
+			target = 02274BFD7227473C3F2BE8094078A6C5 /* AutoToggleHeaderFooterView */;
+			targetProxy = 6486D0ECC18BB5E3F86EC2F44A65C61B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54739ABE4E9A9B4795D4F64FB30BF4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A7E695B8C986302914154538AA522E /* AutoToggleHeaderFooterView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AutoToggleHeaderFooterView/AutoToggleHeaderFooterView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoToggleHeaderFooterView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoToggleHeaderFooterView/AutoToggleHeaderFooterView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AutoToggleHeaderFooterView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65C963CB2ACF0ED3716BFEBA2D106F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A7E695B8C986302914154538AA522E /* AutoToggleHeaderFooterView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AutoToggleHeaderFooterView/AutoToggleHeaderFooterView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoToggleHeaderFooterView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoToggleHeaderFooterView/AutoToggleHeaderFooterView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AutoToggleHeaderFooterView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E542C71CFE04BDF4745B7D902A67681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9613A241C86ED8B7CF9091AB38F296B3 /* Pods-AutoToggleHeaderFooterView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoToggleHeaderFooterView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoToggleHeaderFooterView_Example/Pods-AutoToggleHeaderFooterView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AutoToggleHeaderFooterView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DCAB20F956B1F4CFE1ECCABEE02874C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079A8D1A2690581EF3A7EF255187226F /* Pods-AutoToggleHeaderFooterView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoToggleHeaderFooterView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoToggleHeaderFooterView_Example/Pods-AutoToggleHeaderFooterView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AutoToggleHeaderFooterView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B602FF1B425443F25E1E3FEB88DE759A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8902D07FB1EF4D9BD0CE5CF29A0C84D2 /* Pods-AutoToggleHeaderFooterView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoToggleHeaderFooterView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoToggleHeaderFooterView_Tests/Pods-AutoToggleHeaderFooterView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AutoToggleHeaderFooterView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C994F845BCF60F1B01709357E6980382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37572CC8622BE5208DEFC9D8BC646032 /* Pods-AutoToggleHeaderFooterView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoToggleHeaderFooterView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoToggleHeaderFooterView_Tests/Pods-AutoToggleHeaderFooterView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AutoToggleHeaderFooterView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A95390959041229882B59A4554BB8E /* Build configuration list for PBXNativeTarget "AutoToggleHeaderFooterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54739ABE4E9A9B4795D4F64FB30BF4C8 /* Debug */,
+				65C963CB2ACF0ED3716BFEBA2D106F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFE349B0AC1F4EFF06D7152634EA758 /* Build configuration list for PBXNativeTarget "Pods-AutoToggleHeaderFooterView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B602FF1B425443F25E1E3FEB88DE759A /* Debug */,
+				C994F845BCF60F1B01709357E6980382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31F25B2BC88E2F3201A72BA6B706994 /* Build configuration list for PBXNativeTarget "Pods-AutoToggleHeaderFooterView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E542C71CFE04BDF4745B7D902A67681 /* Debug */,
+				9DCAB20F956B1F4CFE1ECCABEE02874C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
