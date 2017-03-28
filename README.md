@@ -4,7 +4,9 @@
 [![License](https://img.shields.io/cocoapods/l/AutoToggleHeaderFooterView.svg?style=flat)](http://cocoapods.org/pods/AutoToggleHeaderFooterView)
 [![Platform](https://img.shields.io/cocoapods/p/AutoToggleHeaderFooterView.svg?style=flat)](http://cocoapods.org/pods/AutoToggleHeaderFooterView)
 
-A header and footer toggle display-state depending on the scroll or time interval
+A view which can control the behavior of the header and footer depending on the conditions like
+  - the distance a user scrolls the view over
+  - the duration a user do no action for
 
 
 ## Requirements
